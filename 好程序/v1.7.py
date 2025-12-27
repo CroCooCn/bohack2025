@@ -167,7 +167,7 @@ def solve_with_kaiwu(n,m,strs,pos):
         initial_temperature=1e6,
         alpha=0.995,
         cutoff_temperature=0.01,
-        iterations_per_t=100,
+        iterations_per_t=50,
         size_limit=100
     )
     solver = kw.solver.SimpleSolver(optimizer)
@@ -217,8 +217,8 @@ def randmap_gen_pos(n,m,strs):
     return pos
 
 def heu_gen_pos(n,m,strs):
-    rounds=300
-    sample_cnt=150
+    rounds=200
+    sample_cnt=200
     conf_k=-4
     top_pick=3
 
