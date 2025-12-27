@@ -1,0 +1,7 @@
+python版本是3.10
+python --version验证
+
+安装kaiwu sdk
+pip install kaiwu
+
+输入数据：example.txt
